@@ -1,0 +1,28 @@
+<web-app>
+  <servlet>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>com.controller.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/SearchServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>BookServlet</servlet-name>
+    <servlet-class>com.hotel.controller.BookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/BookServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ConfirmBookingServlet</servlet-name>
+    <servlet-class>com.hotel.controller.ConfirmBookingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConfirmBookingServlet</servlet-name>
+    <url-pattern>/ConfirmBookingServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
